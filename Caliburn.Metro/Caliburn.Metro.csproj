@@ -61,8 +61,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Caliburn.Metro.nuspec" />
-    <None Include="packages.config" />
+    <None Include="Caliburn.Metro.nuspec">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Resources\Entypo.ttf" />
   </ItemGroup>
   <ItemGroup>
