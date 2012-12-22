@@ -1,6 +1,7 @@
 # Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
 [Bb]in/
 [Oo]bj/
+[Aa]pp_Data/
 
 # mstest test results
 TestResults
@@ -32,7 +33,6 @@ x64/
 *.tli
 *.tlh
 *.tmp
-*.log
 *.vspscc
 *.vssscc
 .builds
@@ -47,7 +47,6 @@ ipch/
 # Visual Studio profiler
 *.psess
 *.vsp
-*.vspx
 
 # Guidance Automation Toolkit
 *.gpState
@@ -61,6 +60,9 @@ _ReSharper*
 
 # Installshield output folder 
 [Ee]xpress
+
+# Nuget Packages folder 
+[Pp]ackages 
 
 # DocProject is a documentation generator add-in
 DocProject/buildhelp/
@@ -77,16 +79,6 @@ publish
 
 # Publish Web Output
 *.Publish.xml
-
-# NuGet Packages Directory
-packages
-
-# Windows Azure Build Output
-csx
-*.build.csdef
-
-# Windows Store app package directory
-AppPackages/
 
 # Others
 [Bb]in
