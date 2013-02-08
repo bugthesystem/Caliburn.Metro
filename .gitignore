@@ -4,6 +4,8 @@
 [Aa]pp_Data/
 # Nuget Packages folder 
 [Pp]ackages/
+# BuildArtifacts folder
+[Bb]uildArtifacts/
 
 # mstest test results
 TestResults
