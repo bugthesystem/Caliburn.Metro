@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Caliburn.Metro.Autofac</id>
+    <version>0.3.0</version>
+    <authors>ziyasal</authors>
+    <owners>ziyasal</owners>
+    <projectUrl>https://github.com/ziyasal/Caliburn.Metro</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Combining MahApps.Metro and Caliburn.Micro and Autofac Bootstrapper support</description>
+    <summary>Combining MahApps.Metro and Caliburn.Micro and Autofac Bootstrapper support</summary>
+    <tags>Wpf Caliburn.Micro MahApps.Metro Mvvm MetroUI WindowManager Autofac</tags>
+    <dependencies>
+      <dependency id="Autofac" version="3.0.0" />
+      <dependency id="Caliburn.Micro" version="[1.4.0]" />
+      <dependency id="MahApps.Metro" version="0.10.0.1" />
+      <dependency id="MahApps.Metro.Resources" version="0.1.0.1" />
+      <dependency id="Caliburn.Micro.Autofac" version="1.5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Caliburn.Metro.Autofac.dll" target="lib\net45\Caliburn.Metro.Autofac.dll" />
+    <file src="bin\Release\Caliburn.Metro.Core.dll" target="lib\net45\Caliburn.Metro.Core.dll" />
+  </files>
+</package>
