@@ -15,7 +15,6 @@
       <dependency id="Caliburn.Micro" version="1.4.0" />
       <dependency id="MahApps.Metro" version="0.10.0.1" />
       <dependency id="MahApps.Metro.Resources" version="0.1.0.1" />
-      <dependency id="Caliburn.Micro.Autofac" version="1.5.0" />
     </dependencies>
   </metadata>
   <files>
