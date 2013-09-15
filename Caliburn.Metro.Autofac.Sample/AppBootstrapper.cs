@@ -9,7 +9,10 @@ namespace Caliburn.Metro.Autofac.Sample
         {
             builder.RegisterType<AppWindowManager>().As<IWindowManager>().SingleInstance();
             var assembly = typeof(AppViewModel).Assembly;
-            builder.RegisterAssemblyTypes(assembly).Where(item => item.Name.EndsWith("ViewModel") && item.IsAbstract == false).AsSelf().SingleInstance();
+            builder.RegisterAssemblyTypes(assembly)
+                .Where(item => item.Name.EndsWith("ViewModel") && item.IsAbstract == false)
+                .AsSelf()
+                .SingleInstance();
         }
     }
 }

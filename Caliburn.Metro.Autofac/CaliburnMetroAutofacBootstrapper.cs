@@ -1,7 +1,12 @@
-using System.ComponentModel;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using Caliburn.Metro.Core;
 using Caliburn.Micro;
-using Caliburn.Micro.Autofac;
+using Autofac;
+using Autofac.Core;
 
 namespace Caliburn.Metro.Autofac
 {
@@ -14,7 +19,7 @@ namespace Caliburn.Metro.Autofac
             CreateEventAggregator = () => (IEventAggregator)new EventAggregator();
 
             EnforceNamespaceConvention = true;
-            ViewModelBaseType = typeof(INotifyPropertyChanged);
+            ViewModelBaseType = typeof(System.ComponentModel.INotifyPropertyChanged);
         }
     }
 }

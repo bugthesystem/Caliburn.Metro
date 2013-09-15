@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Caliburn.Metro</id>
-    <version>0.3.0</version>
+    <version>0.4.0</version>
     <authors>ziyasal</authors>
     <owners>ziyasal</owners>
     <projectUrl>https://github.com/ziyasal/Caliburn.Metro</projectUrl>
@@ -11,7 +11,7 @@
     <summary>Combining MahApps.Metro and Caliburn.Micro</summary>
     <tags>Wpf Caliburn.Micro MahApps.Metro Mvvm MetroUI WindowManager</tags>
     <dependencies>
-      <dependency id="Caliburn.Micro" version="[1.4.0]" />
+      <dependency id="Caliburn.Micro" version="1.4.0" />
       <dependency id="MahApps.Metro" version="0.10.0.1" />
       <dependency id="MahApps.Metro.Resources" version="0.1.0.1" />
     </dependencies>
