@@ -86,7 +86,7 @@ namespace Caliburn.Metro.Core
                                {
                                    Source =
                                        new Uri(
-                                       "pack://application:,,,/MahApps.Metro;component/Styles/Colours.xaml",
+                                       "pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml",
                                        UriKind.RelativeOrAbsolute)
                                },
                            new ResourceDictionary

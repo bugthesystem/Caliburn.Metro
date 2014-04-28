@@ -1,7 +1,6 @@
 ﻿<UserControl x:Class="Caliburn.Metro.Autofac.Sample.AppView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006">
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <Grid Background="LightBlue">
     <Button Name="OpenWindow" Content="Open Window" Margin="30" />
   </Grid>

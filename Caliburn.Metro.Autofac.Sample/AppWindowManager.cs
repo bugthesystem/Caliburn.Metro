@@ -13,9 +13,9 @@ namespace Caliburn.Metro.Autofac.Sample
             }
 
             return new MainWindowContainer
-                       {
-                           Content = view
-                       };
+            {
+                Content = view
+            };
         }
     }
 }
