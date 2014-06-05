@@ -21,6 +21,7 @@ namespace Caliburn.Metro
         protected override void Configure()
         {
             Container = new CompositionContainer(new AggregateCatalog(AssemblySource.Instance.Select(x => new AssemblyCatalog(x)).OfType<ComposablePartCatalog>()));
+            ConfigureBootstrapper();
 
             CompositionBatch batch = new CompositionBatch();
             ConfigureContainer(batch);
