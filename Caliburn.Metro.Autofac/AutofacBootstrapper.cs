@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Windows;
 using Caliburn.Metro.Core;
 using Caliburn.Micro;
 using Autofac;
@@ -10,7 +11,7 @@ using Autofac.Core;
 
 namespace Caliburn.Metro.Autofac
 {
-    public class AutofacBootstrapper<TRootViewModel> : Bootstrapper<TRootViewModel>
+    public class AutofacBootstrapper<TRootViewModel> : BootstrapperBase
     {
         #region Properties
         protected IContainer Container { get; private set; }
@@ -39,6 +40,11 @@ namespace Caliburn.Metro.Autofac
         /// </summary>
         public Func<IEventAggregator> CreateEventAggregator { get; set; }
         #endregion
+
+        public AutofacBootstrapper()
+        {
+            Initialize();
+        }
 
         /// <summary>
         /// Do not override this method. This is where the IoC container is configured.
@@ -167,6 +173,11 @@ namespace Caliburn.Metro.Autofac
         /// <param name="builder">The Autofac configuration builder.</param>
         protected virtual void ConfigureContainer(ContainerBuilder builder)
         {
+        }
+
+        protected override void OnStartup(object sender, StartupEventArgs e)
+        {
+            DisplayRootViewFor<TRootViewModel>();
         }
     }
 }
