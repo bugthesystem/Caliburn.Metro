@@ -23,7 +23,7 @@
 		<file src="..\BuildArtifacts\Caliburn.Metro.Core\bin\net45\Caliburn.Metro.Core.dll" target="lib\net45\Caliburn.Metro.Core.dll" />
 		<file src="..\BuildArtifacts\Caliburn.Metro\bin\net45\Caliburn.Metro.dll" target="lib\net45\Caliburn.Metro.dll" />
 
-		<!--<file src="..\BuildArtifacts\Caliburn.Metro.Core\bin\net40\Caliburn.Metro.Core.dll" target="lib\net40\Caliburn.Metro.Core.dll" />
-		<file src="..\BuildArtifacts\Caliburn.Metro\bin\net40\Caliburn.Metro.dll" target="lib\net40\Caliburn.Metro.dll" />-->
+		<file src="..\BuildArtifacts\Caliburn.Metro.Core\bin\net40\Caliburn.Metro.Core.dll" target="lib\net40\Caliburn.Metro.Core.dll" />
+		<file src="..\BuildArtifacts\Caliburn.Metro\bin\net40\Caliburn.Metro.dll" target="lib\net40\Caliburn.Metro.dll" />
 	</files>
 </package>

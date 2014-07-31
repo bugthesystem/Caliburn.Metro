@@ -13,9 +13,9 @@
 				 Properties="Configuration=Release;OutputPath=$(MSBuildThisFileDirectory)BuildArtifacts\Caliburn.Metro.Core\bin\net45;
 			 IntermediateOutputPath=$(MSBuildThisFileDirectory)BuildArtifacts\Caliburn.Metro.Core\obj\net45\;TargetFrameworkVersion=v4.5" />
 
-		<!--<MSBuild Projects=".\Caliburn.Metro.Core\Caliburn.Metro.Core.csproj"
+		<MSBuild Projects=".\Caliburn.Metro.Core\Caliburn.Metro.Core.csproj"
 				 Properties="Configuration=Release;OutputPath=$(MSBuildThisFileDirectory)BuildArtifacts\Caliburn.Metro.Core\bin\net40;
-			 IntermediateOutputPath=$(MSBuildThisFileDirectory)BuildArtifacts\Caliburn.Metro.Core\obj\net40\;TargetFrameworkVersion=v4.0" />-->
+			 IntermediateOutputPath=$(MSBuildThisFileDirectory)BuildArtifacts\Caliburn.Metro.Core\obj\net40\;TargetFrameworkVersion=v4.0" />
 		<!--END: Caliburn.Metro.Core-->
 
 		<!--START: Caliburn.Metro-->
@@ -27,9 +27,9 @@
 				 Properties="Configuration=Release;OutputPath=$(MSBuildThisFileDirectory)BuildArtifacts\Caliburn.Metro\bin\net45;
 			 IntermediateOutputPath=$(MSBuildThisFileDirectory)BuildArtifacts\Caliburn.Metro\obj\net45\;TargetFrameworkVersion=v4.5" />
 
-		<!--<MSBuild Projects=".\Caliburn.Metro\Caliburn.Metro.csproj"
+		<MSBuild Projects=".\Caliburn.Metro\Caliburn.Metro.csproj"
 				 Properties="Configuration=Release;OutputPath=$(MSBuildThisFileDirectory)BuildArtifacts\Caliburn.Metro\bin\net40;
-			 IntermediateOutputPath=$(MSBuildThisFileDirectory)BuildArtifacts\Caliburn.Metro\obj\net40\;TargetFrameworkVersion=v4.0" />-->
+			 IntermediateOutputPath=$(MSBuildThisFileDirectory)BuildArtifacts\Caliburn.Metro\obj\net40\;TargetFrameworkVersion=v4.0" />
 		<!--END: Caliburn.Metro-->
 
 		<!--START: Caliburn.Metro.Autofac-->
@@ -41,9 +41,9 @@
 				 Properties="Configuration=Release;OutputPath=$(MSBuildThisFileDirectory)BuildArtifacts\Caliburn.Metro.Autofac\bin\net451;
 			 IntermediateOutputPath=$(MSBuildThisFileDirectory)BuildArtifacts\Caliburn.Metro.Autofac\obj\net451\;TargetFrameworkVersion=v4.5.1" />
 
-		<!--<MSBuild Projects=".\Caliburn.Metro.Autofac\Caliburn.Metro.Autofac.csproj"
+		<MSBuild Projects=".\Caliburn.Metro.Autofac\Caliburn.Metro.Autofac.csproj"
 				 Properties="Configuration=Release;OutputPath=$(MSBuildThisFileDirectory)BuildArtifacts\Caliburn.Metro.Autofac\bin\net40;
-			 IntermediateOutputPath=$(MSBuildThisFileDirectory)BuildArtifacts\Caliburn.Metro.Autofac\obj\net40\;TargetFrameworkVersion=v4.0" />-->
+			 IntermediateOutputPath=$(MSBuildThisFileDirectory)BuildArtifacts\Caliburn.Metro.Autofac\obj\net40\;TargetFrameworkVersion=v4.0" />
 		<!--END: Caliburn.Metro.Autofac-->
 	</Target>
 
