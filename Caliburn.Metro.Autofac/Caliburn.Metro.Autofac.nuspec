@@ -24,7 +24,7 @@
 		<file src="..\BuildArtifacts\Caliburn.Metro.Autofac\bin\net45\Caliburn.Metro.Autofac.dll" target="lib\net45\Caliburn.Metro.Autofac.dll" />
 		<file src="..\BuildArtifacts\Caliburn.Metro.Core\bin\net45\Caliburn.Metro.Core.dll" target="lib\net45\Caliburn.Metro.Core.dll" />
 
-		<file src="..\BuildArtifacts\Caliburn.Metro.Autofac\bin\net40\Caliburn.Metro.Autofac.dll" target="lib\net40\Caliburn.Metro.Autofac.dll" />
-		<file src="..\BuildArtifacts\Caliburn.Metro.Core\bin\net40\Caliburn.Metro.Core.dll" target="lib\net40\Caliburn.Metro.Core.dll" />
+		<!--<file src="..\BuildArtifacts\Caliburn.Metro.Autofac\bin\net40\Caliburn.Metro.Autofac.dll" target="lib\net40\Caliburn.Metro.Autofac.dll" />
+		<file src="..\BuildArtifacts\Caliburn.Metro.Core\bin\net40\Caliburn.Metro.Core.dll" target="lib\net40\Caliburn.Metro.Core.dll" />-->
 	</files>
 </package>
