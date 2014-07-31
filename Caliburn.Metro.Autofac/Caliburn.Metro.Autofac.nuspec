@@ -11,8 +11,8 @@
 		<summary>Combining MahApps.Metro and Caliburn.Micro and Autofac Bootstrapper support</summary>
 		<tags>Wpf Caliburn.Micro MahApps.Metro Mvvm MetroUI WindowManager Autofac</tags>
 		<dependencies>
-			<dependency id="Autofac" version="3.3.1" />
-			<dependency id="Caliburn.Micro" version="1.5.2" />
+			<dependency id="Autofac" version="3.5.0" />
+			<dependency id="Caliburn.Micro" version="2.0.0" />
 			<dependency id="MahApps.Metro" version="0.13.1.0" />
 			<dependency id="MahApps.Metro.Resources" version="0.2.1.0" />
 		</dependencies>
@@ -24,7 +24,7 @@
 		<file src="..\BuildArtifacts\Caliburn.Metro.Autofac\bin\net45\Caliburn.Metro.Autofac.dll" target="lib\net45\Caliburn.Metro.Autofac.dll" />
 		<file src="..\BuildArtifacts\Caliburn.Metro.Core\bin\net45\Caliburn.Metro.Core.dll" target="lib\net45\Caliburn.Metro.Core.dll" />
 
-		<file src="..\BuildArtifacts\Caliburn.Metro.Autofac\bin\net40\Caliburn.Metro.Autofac.dll" target="lib\net40\Caliburn.Metro.Autofac.dll" />
-		<file src="..\BuildArtifacts\Caliburn.Metro.Core\bin\net40\Caliburn.Metro.Core.dll" target="lib\net40\Caliburn.Metro.Core.dll" />
+		<!--<file src="..\BuildArtifacts\Caliburn.Metro.Autofac\bin\net40\Caliburn.Metro.Autofac.dll" target="lib\net40\Caliburn.Metro.Autofac.dll" />
+		<file src="..\BuildArtifacts\Caliburn.Metro.Core\bin\net40\Caliburn.Metro.Core.dll" target="lib\net40\Caliburn.Metro.Core.dll" />-->
 	</files>
 </package>

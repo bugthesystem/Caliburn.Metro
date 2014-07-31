@@ -11,7 +11,7 @@
 		<summary>Combining MahApps.Metro and Caliburn.Micro</summary>
 		<tags>Wpf Caliburn.Micro MahApps.Metro Mvvm MetroUI WindowManager</tags>
 		<dependencies>
-			<dependency id="Caliburn.Micro" version="1.5.2" />
+			<dependency id="Caliburn.Micro" version="2.0.0" />
 			<dependency id="MahApps.Metro" version="0.13.1.0" />
 			<dependency id="MahApps.Metro.Resources" version="0.2.1.0" />
 		</dependencies>
@@ -23,7 +23,7 @@
 		<file src="..\BuildArtifacts\Caliburn.Metro.Core\bin\net45\Caliburn.Metro.Core.dll" target="lib\net45\Caliburn.Metro.Core.dll" />
 		<file src="..\BuildArtifacts\Caliburn.Metro\bin\net45\Caliburn.Metro.dll" target="lib\net45\Caliburn.Metro.dll" />
 
-		<file src="..\BuildArtifacts\Caliburn.Metro.Core\bin\net40\Caliburn.Metro.Core.dll" target="lib\net40\Caliburn.Metro.Core.dll" />
-		<file src="..\BuildArtifacts\Caliburn.Metro\bin\net40\Caliburn.Metro.dll" target="lib\net40\Caliburn.Metro.dll" />
+		<!--<file src="..\BuildArtifacts\Caliburn.Metro.Core\bin\net40\Caliburn.Metro.Core.dll" target="lib\net40\Caliburn.Metro.Core.dll" />
+		<file src="..\BuildArtifacts\Caliburn.Metro\bin\net40\Caliburn.Metro.dll" target="lib\net40\Caliburn.Metro.dll" />-->
 	</files>
 </package>
