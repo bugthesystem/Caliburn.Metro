@@ -9,4 +9,65 @@ It provides [Caliburn.Micro](http://caliburnmicro.codeplex.com/) **Bootstrapper*
 
 * [Nuget Package - Caliburn.Metro](https://nuget.org/packages/Caliburn.Metro)
 * [Nuget Package - Caliburn.Metro.Autofac](https://nuget.org/packages/Caliburn.Metro.Autofac)
-* [Documentation](https://github.com/ziyasal/Caliburn.Metro/wiki)
+* 
+**Default Setup**
+[Demo application](https://github.com/ziyasal/Caliburn.Metro/tree/master/Caliburn.Metro.Sample)
+```csharp
+  //Basic AppBootstrapper
+  public class AppBootstrapper : CaliburnMetroCompositionBootstrapper<AppViewModel>
+  {
+
+  }
+    
+  //AppWindowManager with custom Main window
+  [Export(typeof(IWindowManager))]
+  public class AppWindowManager : MetroWindowManager
+  {
+      public override MetroWindow CreateCustomWindow(object view, bool windowIsView)
+      {
+          if (windowIsView)
+          {
+              return view as MainWindowContainer;
+          }
+
+          return new MainWindowContainer
+          {
+            Content = view
+          };
+      }
+  }
+```
+
+**Autofac Bootstrapper Setup**
+[Demo application](https://github.com/ziyasal/Caliburn.Metro/tree/master/Caliburn.Metro.Autofac.Sample)
+```csharp
+//Basic AppBootstrapper
+public class AppBootstrapper : CaliburnMetroAutofacBootstrapper<AppViewModel>
+{
+    protected override void ConfigureContainer(ContainerBuilder builder)
+    {
+        builder.RegisterType<AppWindowManager>().As<IWindowManager>().SingleInstance();
+        var assembly = typeof(AppViewModel).Assembly;
+        builder.RegisterAssemblyTypes(assembly)
+            .Where(item => item.Name.EndsWith("ViewModel") && item.IsAbstract == false)
+            .AsSelf()
+            .SingleInstance();
+    }
+}
+
+//AppWindowManager with custom Main window
+public class AppWindowManager : MetroWindowManager
+{
+    public override MetroWindow CreateCustomWindow(object view, bool windowIsView)
+    {
+        if (windowIsView)
+        {
+            return view as MainWindowContainer;
+        }
+        return new MainWindowContainer
+        {
+            Content = view
+        };
+    }
+}
+```
