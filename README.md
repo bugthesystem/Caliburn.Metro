@@ -9,7 +9,7 @@ It provides [Caliburn.Micro](http://caliburnmicro.codeplex.com/) **Bootstrapper*
 
 * [Nuget Package - Caliburn.Metro](https://nuget.org/packages/Caliburn.Metro)
 * [Nuget Package - Caliburn.Metro.Autofac](https://nuget.org/packages/Caliburn.Metro.Autofac)
-* 
+
 **Default Setup**
 [Demo application](https://github.com/ziyasal/Caliburn.Metro/tree/master/Caliburn.Metro.Sample)
 ```csharp
