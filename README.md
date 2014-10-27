@@ -41,7 +41,7 @@ It provides [Caliburn.Micro](http://caliburnmicro.codeplex.com/) **Bootstrapper*
 **Autofac Bootstrapper Setup**
 [Demo application](https://github.com/ziyasal/Caliburn.Metro/tree/master/Caliburn.Metro.Autofac.Sample)
 ```csharp
-//Basic AppBootstrapper
+//Autofac AppBootstrapper
 public class AppBootstrapper : CaliburnMetroAutofacBootstrapper<AppViewModel>
 {
     protected override void ConfigureContainer(ContainerBuilder builder)
