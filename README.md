@@ -1,6 +1,8 @@
 Caliburn.Metro
 ==============
 
+[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.svg)](https://gratipay.com/ziyasal/)  
+
 
 Library combines [MahApps.Metro](http://mahapps.com/MahApps.Metro/) and [Caliburn.Micro](http://caliburnmicro.codeplex.com/) for Metro UI styled WPF applications 
 
