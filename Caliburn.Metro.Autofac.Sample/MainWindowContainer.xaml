@@ -7,7 +7,8 @@
                        xmlns:cal="http://www.caliburnproject.org"
                        xmlns:behaviours="http://metro.mahapps.com/winfx/xaml/shared"
                        xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
-                       Title="MainWindowContainer" Height="600" Width="800">
+                       Title="MainWindowContainer" Height="600" Width="800"
+                      ResizeMode="CanResizeWithGrip">
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -21,10 +22,7 @@
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Window.Resources>
-    <i:Interaction.Behaviors>
-        <behaviours:BorderlessWindowBehavior ResizeWithGrip="True"/>
-    </i:Interaction.Behaviors>
-    <controls:MetroWindow.WindowCommands>
+    <controls:MetroWindow.RightWindowCommands>
         <controls:WindowCommands>
             <Button Content="settings" cal:Message.Attach="OpenSettings"/>
             <Button>
@@ -39,7 +37,7 @@
                 </StackPanel>
             </Button>
         </controls:WindowCommands>
-    </controls:MetroWindow.WindowCommands>
+    </controls:MetroWindow.RightWindowCommands>
     <controls:MetroWindow.Flyouts>
         <controls:FlyoutsControl>
             <controls:Flyout Header="Bakery" Background="#9f000000" Position="Right" IsOpen="{Binding IsSettingsFlyoutOpen}">
