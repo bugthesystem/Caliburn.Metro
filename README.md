@@ -75,4 +75,4 @@ public class AppWindowManager : MetroWindowManager
 
 **License**
 
-Code and documentation are available according to the MIT License (see [LICENSE](https://github.com/ziyasal/Caliburn.Metro/blob/master/LICENSE)).
+Code and documentation are available according to the Unlicense (see [LICENSE](https://github.com/ziyasal/Caliburn.Metro/blob/master/UNLICENSE)).
